@@ -32,7 +32,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <p><span class="error"></span></p>
 <form method="post" action="lab4.php">  
   Name: <input type="text" name="name">
-  <span class="error"> <?php $name ?></span>
   <br><br>
   E-mail: <input type="text" name="email">
   <span class="error">* </span>
